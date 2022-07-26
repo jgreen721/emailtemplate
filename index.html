@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Template</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Lato:wght@300;700&display=swap");
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      padding: 3em;
+      background: rgb(243, 239, 236);
+      color: rgb(148, 105, 65);
+      font-family: "Lato", sans-serif;
+    }
+    .template-container {
+      width: 90%;
+      height: 60%;
+      /* border: 2px solid black; */
+      display: flex;
+    }
+
+    .top {
+      border-bottom: 2px solid black;
+      width: 75%;
+      padding-bottom: 0.5em;
+    }
+
+    .left-col {
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .brand-h1 {
+      font-size: 5.5rem;
+      letter-spacing: 1rem;
+    }
+
+    .my-2 {
+      margin-top: 1rem;
+    }
+
+    .my-2 h2 {
+      margin: 0.5rem;
+    }
+
+    .icon {
+      font-size: 2.5rem;
+      margin: 0rem 1rem;
+    }
+
+    .btn-row {
+      display: flex;
+      padding: 1em;
+      justify-content: space-between;
+      width: 65%;
+    }
+
+    .btn-div {
+      height: 35px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      background: rgb(148, 105, 65);
+      padding: 1em;
+      color: white;
+      margin-right: 0.5rem;
+      min-width: 205px;
+    }
+
+    .btn-icon {
+      font-size: 2rem;
+
+      margin-right: 0.5em;
+    }
+
+    .ml-2 {
+      margin-left: 0.5rem;
+    }
+
+    .uppercase {
+      text-transform: uppercase;
+    }
+  </style>
+  <body>
+    <div class="template-container">
+      <div class="left-col">
+        <h1 class="brand-h1">LA</h1>
+      </div>
+      <div class="right-col">
+        <div class="top">
+          <h1>Vrindy Benson</h1>
+          <h2 class="uppercase">Director at Lahana Group</h2>
+        </div>
+        <div class="my-2">
+          <h2>P:<span class="ml-2" id="phone-number">0484 313 495</span></h2>
+          <h2>E:<span class="ml-2" id="email">vrindy@lahana.co</span></h2>
+          <h2>W:<span class="ml-2" id="website">www.lahana.co</span></h2>
+          <h2>
+            A:<span id="address"
+              >6/19 Lundbberg Drive, South Murwillumbah NSW 2484</span
+            >
+          </h2>
+        </div>
+        <div class="icon-row">
+          <i class="icon fab fa-instagram"></i>
+          <i class="icon fab fa-youtube"></i>
+          <i class="icon fab fa-pinterest"></i>
+          <i class="icon fab fa-facebook"></i>
+        </div>
+        <div class="btn-row">
+          <div class="btn-div">
+            <i class="btn-icon fas fa-play"></i>
+            <div>
+              Get it on <br />
+              <h2 class="tall">Google Play</h2>
+            </div>
+          </div>
+          <div class="btn-div">
+            <i class="btn-icon fab fa-apple"></i>
+            <div>
+              Available on the <br />
+              <h2 class="tall">App Store</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
